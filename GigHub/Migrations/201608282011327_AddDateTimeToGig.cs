@@ -7,12 +7,12 @@ namespace GigHub.Migrations
     {
         public override void Up()
         {
-            AddColumn("dbo.Gigs", "DateTime", c => c.DateTime(nullable: false));
+            AddColumn("dbo.Gigs", "GetDateTime", c => c.DateTime(nullable: false));
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Gigs", "DateTime");
+            DropColumn("dbo.Gigs", "GetDateTime");
         }
     }
 }
