@@ -218,6 +218,18 @@
     <Compile Include="Migrations\201608280540125_PopulateGenresTable.Designer.cs">
       <DependentUpon>201608280540125_PopulateGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608282011327_AddDateTimeToGig.cs" />
+    <Compile Include="Migrations\201608282011327_AddDateTimeToGig.Designer.cs">
+      <DependentUpon>201608282011327_AddDateTimeToGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608282031567_RemoveDatetimeFromGig.cs" />
+    <Compile Include="Migrations\201608282031567_RemoveDatetimeFromGig.Designer.cs">
+      <DependentUpon>201608282031567_RemoveDatetimeFromGig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201608282349052_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201608282349052_AddForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201608282349052_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -312,6 +324,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608280540125_PopulateGenresTable.resx">
       <DependentUpon>201608280540125_PopulateGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608282011327_AddDateTimeToGig.resx">
+      <DependentUpon>201608282011327_AddDateTimeToGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608282031567_RemoveDatetimeFromGig.resx">
+      <DependentUpon>201608282031567_RemoveDatetimeFromGig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608282349052_AddForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201608282349052_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
